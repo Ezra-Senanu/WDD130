@@ -1,4 +1,190 @@
-.styles {
-    width: 100%;
-    background-image: " practiceimages/papers.co-ac94-wallpaper-ios8-apple-iphone6-plus-earth-from-sky-1920x1080.jpg";
+body {
+    height: 100%;
+    margin: 0 auto;
 }
+
+#border {
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+#bordercount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+    border: 20px 20px;
+    border-color: #d3d6da;
+    padding: 10px;
+    display: inline-block;
+}
+
+header {
+    text-align: center;
+}
+
+.border {
+    align-items: center;
+    justify-content: center;
+    grid-gap: 5px;
+    height: 420px;
+    width: 350px;
+    display: grid;
+    padding: 30px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    box-sizing: border-box;
+}
+
+#board {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.title {
+    margin: 0 auto;
+}
+
+.short {
+    width: 20px;
+}
+
+.top {
+    display: inline-flex;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 500px;
+    height: 50px;
+    font-size: 36px;
+}
+
+#keyboard {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 500px;
+    height: 200px;
+    padding: 70px;
+}
+
+.key {
+    border: 0;
+    padding: 0;
+    margin: 0 6px 0 0;
+    height: 58px;
+    border-radius: 4px;
+    background-color: #d3d6da;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    margin: 0 auto 8px;
+    align-items: center;
+    flex-grow: 1.5;
+}
+
+.backspace {
+    border-radius: 4px;
+    background-color: #d3d6da;
+    width: 48px;
+    height: 58px;
+    align-items: center;
+    justify-content: center;
+}
+
+.half {
+    flex: 0.5;
+}
+
+
+/*html {
+    height: 100%;
+}
+
+header {
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 1px soild #d3d6da;
+}
+
+h1 {
+    text-align: center;
+}
+
+.boarder {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-style: solid;
+    border: 20px 20px;
+    box-sizing: border-box;
+    grid-gap: 5px;
+    grid-template-columns: repeat(6, 1fr);
+    display: grid;
+    border-color: black;
+    padding: 10px;
+}
+
+#board-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+#board {
+    grid-gap: 5px;
+    grid-template-columns: repeat(5, 1fr);
+    display: grid;
+    border-color: black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+/* .images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: .0001%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+*/
+
+
+/* hr {
+    display: block;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    color: grey;
+}
+
+*/
