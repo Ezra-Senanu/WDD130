@@ -5,10 +5,11 @@ Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Roboto:wght@300&display=swap');
 :root {
     /* change the values below to your colors from your palette */
-    --primary-color: #396E94;
-    --secondary-color: #A43312;
-    --accent1-color: #AABD8C;
-    --accent2-color: white;
+    --primary-color: #EBE9E9;
+    --secondary-color: #F3F8F2;
+    --accent1-color: #FCB07E;
+    --accent2-color: #3581B8;
+    --accent2-color: #DEE2D6;
     /* change the values below to your chosen font(s) */
     --heading-font: "Roboto";
     --paragraph-font: Dongle;
@@ -21,7 +22,7 @@ Fonts are separated by a | */
     /* paragraph text on a white background */
     --paragraph-color-on-color: white;
     /* paragraph text on a colored background */
-    --paragraph-background-color: #4480ac;
+    --paragraph-background-color: #EBE9E9;
     --nav-link-color: #ce8b26;
     --nav-background-color: #3f968e;
     --nav-hover-link-color: white;
