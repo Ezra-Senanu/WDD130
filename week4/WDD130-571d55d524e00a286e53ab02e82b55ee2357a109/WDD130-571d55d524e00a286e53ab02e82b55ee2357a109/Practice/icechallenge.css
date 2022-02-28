@@ -1,0 +1,15 @@
+.circle {
+    border-radius: 50%;
+    border: 5px solid;
+    margin: 10px;
+    border-color: black;
+    width: 25%;
+}
+
+.color {
+    background-color: grey;
+}
+
+.main {
+    width: 100%;
+}
