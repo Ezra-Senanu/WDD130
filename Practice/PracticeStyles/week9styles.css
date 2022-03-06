@@ -1,0 +1,50 @@
+html {
+    background-color: black;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    justify-items: center;
+}
+
+head {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+}
+
+.middle {
+    text-align: center;
+    width: 800px;
+    grid-column: 2/3;
+    display: grid;
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+h3 {
+    color: blue;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    display: flex;
+    padding: 25px 50px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.fot {
+    display: grid;
+    text-align: center;
+}
+
+.body {
+    background-color: white;
+}
