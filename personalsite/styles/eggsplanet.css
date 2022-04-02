@@ -21,6 +21,15 @@
                 grid-gap: 1%;
             }
             
+            .price {
+                text-align: center;
+            }
+            
+            p {
+                text-align: center;
+                background-color: #0A9396;
+            }
+            
             h3 {
                 background-color: grey;
                 text-align: center;
@@ -84,7 +93,7 @@
             
             footer .social img {
                 padding-top: 15px;
-                width: 10%;
+                width: 30%;
             }
             /********/
             
